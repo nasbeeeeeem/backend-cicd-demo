@@ -28,7 +28,7 @@ jobs:
           distribution: 'adopt'
       # Gradleのバッチに実行権限を付与する
       - name: Make Gradle executable
-        run: chmod 001 ./gradlew
+        run: chmod +x ./gradlew
       # ビルド
       - name: Build with Gradle
         run: ./gradlew build
