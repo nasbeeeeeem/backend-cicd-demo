@@ -29,6 +29,9 @@ jobs:
       # Gradleのバッチに実行権限を付与する
       - name: Make Gradle executable
         run: chmod +x ./gradlew
+      # dbディレクトリの作成
+      - name: Create db directory
+        run: mkdir db
       # dockerコンテナを立ち上げる
       - name: Run docker-compose
         run: docker-compose up -d
