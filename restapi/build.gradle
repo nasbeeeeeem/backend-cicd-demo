@@ -39,11 +39,8 @@ tasks.named('test') {
 
 sonar {
 	properties {
-//		プロジェクト名
 		property "sonar.projectKey", "Haebeal_backend-cicd-demo"
-//		分析対象の組織キー
 		property "sonar.organization", "haebeal0123"
-//		SonarCloudのURL
 		property "sonar.host.url", " https://sonarcloud.io"
 	}
 }

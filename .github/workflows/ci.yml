@@ -3,7 +3,7 @@ name: SpringBoot CI with Gradle
 # mainブランチへのpushで実行する
 on: 
   push:
-    branches: [ "main" ]
+    branches: [ "main", "develop"]
 
 # リポジトリの権限
 permissions:
